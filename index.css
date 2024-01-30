@@ -192,6 +192,10 @@ section {
 
 .icon {
     cursor: pointer;
+    height: 1.5rem;
+}
+
+.icon2 {
     height: 2.5rem;
 }
 
