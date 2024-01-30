@@ -192,7 +192,7 @@ section {
 
 .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 2.5rem;
 }
 
 .btn-container {
@@ -320,7 +320,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: start;
     gap: 0.5rem;
 }
 
