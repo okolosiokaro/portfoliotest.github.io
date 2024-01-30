@@ -81,11 +81,12 @@
          margin-bottom: 2rem;
      }
  
-     .about-containers, .contact-info-upper-container, .btn-container {
+     .about-containers, .btn-container {
          flex-wrap: wrap;
      }
      .contact-info-upper-container  {
         flex-direction: column;
+        gap: 15px;
      }
      .contact-info-container {
          margin: 0;
