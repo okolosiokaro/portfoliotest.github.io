@@ -1,11 +1,17 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
     #profile {
      height: 83vh;
      margin-bottom: 6rem;
     }
- 
+
+    .arrow {
+        bottom: 0.5rem;
+    }
+
+    
     .about-containers {
-      flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
  }
  
@@ -19,6 +25,7 @@
  
      #experience, .experience-details-container {
          margin-top: 2rem;
+         height:auto;
      }
  
      #profile, .section-container {
@@ -40,17 +47,24 @@
      .section_pic_container {
          width: 275px;
          height: 275px;
-         margin: 0 auto 2rem;
+         margin: 2rem auto;
+         justify-content: center;
      }
  
      .about-containers {
          margin-top: 0;
+         flex-wrap: wrap;
      }
  }
  
  @media screen and (max-width: 600px) {
      #contact, footer {
         height: 40vh;
+        margin-top: 100px;
+     }
+
+     #about {
+        margin-top: 200px;
      }
  
      #profile {
@@ -99,3 +113,15 @@
          text-align: justify;
      }
  }
+/* 
+ @media screen and (max-width: 500px){
+    #about {
+        margin-top: 200px;
+     }
+     #contact {
+        margin-top: 100px;
+     }
+     #footer {
+        margin-top: 100px;
+     }
+ } */
