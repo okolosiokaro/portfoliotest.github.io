@@ -113,15 +113,9 @@
          text-align: justify;
      }
  }
-/* 
  @media screen and (max-width: 500px){
-    #about {
-        margin-top: 200px;
+    .contact-info-upper-container  {
+        flex-direction: column;
      }
-     #contact {
-        margin-top: 100px;
-     }
-     #footer {
-        margin-top: 100px;
-     }
- } */
+   
+ }
