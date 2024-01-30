@@ -271,7 +271,7 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 2rem;
     border:rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -304,6 +304,8 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    height: 70vh;
 }
 
 .article-container {
