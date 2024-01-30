@@ -87,6 +87,7 @@
      .contact-info-upper-container  {
         flex-direction: column;
         gap: 15px;
+        padding: 15px;
      }
      .contact-info-container {
          margin: 0;
