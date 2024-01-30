@@ -84,6 +84,9 @@
      .about-containers, .contact-info-upper-container, .btn-container {
          flex-wrap: wrap;
      }
+     .contact-info-upper-container  {
+        flex-direction: column;
+     }
      .contact-info-container {
          margin: 0;
      }
@@ -113,9 +116,4 @@
          text-align: justify;
      }
  }
- @media screen and (max-width: 500px){
-    .contact-info-upper-container  {
-        flex-direction: column;
-     }
-   
- }
+ 
