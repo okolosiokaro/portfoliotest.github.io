@@ -146,6 +146,7 @@ section {
 
 .section-container {
     display: flex;
+    padding: 20px;
 }
 
 #profile {
