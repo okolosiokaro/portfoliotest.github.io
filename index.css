@@ -141,7 +141,7 @@ section {
     margin: 0 auto;
     box-sizing: border-box;
     min-height: fit-content;
-    /* max-width: fit-content; */
+    max-width: 1440px;
 }
 
 .section-container {
