@@ -19,6 +19,10 @@
      #desktop-nav {
          display: none;
      }
+     #about {
+        margin-top: 200px;
+     }
+
      #hamburger-nav {
          display: flex;
      }
