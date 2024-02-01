@@ -107,7 +107,7 @@ a:hover {
 }
 
 .menu-links.open {
-    min-height: 300px;
+    max-height: 300px;
     z-index: 1;
 }
 
