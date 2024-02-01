@@ -59,6 +59,7 @@
  
  @media screen and (max-width: 600px) {
     section{
+        max-width: 600px;
         margin: 0 auto;
     }
  
