@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="assets/pic1.png" />
     <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="media-queries.css">
 </head>
@@ -38,10 +40,10 @@
     </nav>
 
     <section id="profile">
-        <div class="section_pic_container">
+        <div class="section_pic_container" id="home-pic">
             <img src="assets/pic1.png" alt="profile pic">
         </div>
-        <div class="section_text">
+        <div class="section_text" id="home-text">
             <p class="section_text_p1">Hello, I'm</p>
             <h1 class="title">Elvis Okolosio</h1>
             <p class="section_text_p2">Frontend Developer</p>
@@ -65,23 +67,23 @@
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
-                    <div class="details-container">
+                    <div class="details-container animate__animated animate__fadeInRight">
                         <img src="assets/suitcase.png" alt="experience icon" class="icon">
                         <h3>Experience</h3>
                         <p>2+ Years <br/> Frontend Development</p>
                     </div>
-                    <div class="details-container">
+                    <div class="details-container animate__animated animate__fadeInRight">
                         <img src="assets/graduation.png" alt="education icon" class="icon">
                         <h3>Education</h3>
                         <p>B.Sc. Bachelors Degree
                     </div>
                 </div>
-                <div class="text-container">
+                <div class="text-container animate__animated animate__fadeInRight">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum a id blanditiis dolorum corporis sit sed ipsum aliquid optio. Eius porro qui natus deleniti excepturi odit ex beatae, voluptate amet culpa laboriosam earum nisi eveniet expedita. Molestias, tempora perferendis? Eos laborum deserunt dolor nam sunt, corporis ratione repellat recusandae voluptate.</p>
                 </div>
             </div>
         </div>
-        <img src="#" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        <i class="fi fi-sr-arrow-circle-down icon3 arrow" alt="arrow icon" onclick="location.href='./#experience'"></i>
     </section>
 
     <section id="experience">
@@ -93,14 +95,14 @@
                  <h2 class="experience-sub-title">Frontend Development</h2>
                  <div class="article-container">
                     <article>
-                        <img src="assets/html.png" alt="html icon" class="icon icon2">
+                        <img src="assets/html.png" alt="html icon" class="icon2">
                         <div>
                             <h3>HTML</h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                     <article>
-                        <img src="assets/css-3.png" alt="css icon" class="icon icon2">
+                        <img src="assets/css-3.png" alt="css icon" class="icon2">
                         <div>
                             <h3>CSS</h3>
                             <p>Experienced</p>
@@ -114,7 +116,7 @@
                         </div>
                     </article> -->
                     <article>
-                        <img src="assets/js.png" alt="js icon" class="icon icon2">
+                        <img src="assets/js.png" alt="js icon" class="icon2">
                         <div>
                             <h3>JavaScript</h3>
                             <p>Intermediate</p>
@@ -128,7 +130,7 @@
                         </div>
                     </article> -->
                     <article>
-                        <img src="assets/physics.png" alt="react icon" class="icon icon2">
+                        <img src="assets/physics.png" alt="react icon" class="icon2">
                         <div>
                             <h3>React</h3>
                             <p>Basic</p>
@@ -147,7 +149,7 @@
                        </div>
                    </article> -->
                    <article>
-                       <img src="#" alt="node icon" class="icon icon2">
+                       <img src="assets/node-js.png" alt="node icon" class="icon2">
                        <div>
                            <h3>Node JS</h3>
                            <p>Intermediate</p>
@@ -161,7 +163,7 @@
                        </div>
                    </article> -->
                    <article>
-                       <img src="#" alt="git icon" class="icon icon2">
+                       <img src="assets/git.png" alt="git icon" class="icon2">
                        <div>
                            <h3>GIT</h3>
                            <p>Intermediate</p>
@@ -171,7 +173,7 @@
            </div>
         </div>
        </div>
-       <img src="#" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+       <i class="fi fi-sr-arrow-circle-down icon3 arrow" alt="arrow icon" onclick="location.href='./#projects'"></i>
     </section>
 
     <section id="projects">
@@ -181,22 +183,22 @@
           <div class="about-containers">
              <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="assets/webdev.jpg" alt="project1" class="project-img">
+                    <img src="assets/zogesagro.png" alt="project1" class="project-img">
                 </div>
-                <h2 class="experience-sub-title">Project One</h2>
+                <h2 class="experience-sub-title">Zoges Agro</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Omarookolosio94/AgroTech'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://zogesagrotrucking.com'">Live Demo</button>
                 </div>
             </div>
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="assets/webdev.jpg" alt="project1" class="project-img">
+                    <img src="assets/tabstore.png" alt="project1" class="project-img">
                 </div>
-                <h2 class="experience-sub-title">Project Two</h2>
+                <h2 class="experience-sub-title">Tabstore App</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://app.tabstore.africa'">Live Demo</button>
                 </div>
             </div>
             <div class="details-container color-container">
@@ -211,7 +213,7 @@
             </div>
           </div>
         </div>
-        <img src="#" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+        <i class="fi fi-sr-arrow-circle-down icon3 arrow" alt="arrow icon" onclick="location.href='./#contact'"></i>
     </section>
 
     <section id="contact">
