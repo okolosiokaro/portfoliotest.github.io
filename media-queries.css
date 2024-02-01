@@ -59,7 +59,7 @@
  
  @media screen and (max-width: 600px) {
     body{
-        overflow-x: hidden;
+        margin: 0 auto;
     }
      #contact, footer {
         height: 40vh;
