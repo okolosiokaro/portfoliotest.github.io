@@ -58,11 +58,6 @@
  }
  
  @media screen and (max-width: 600px) {
-    section{
-        width: 600px;
-        margin: 0 auto;
-    }
- 
      #contact, footer {
         height: 40vh;
         margin-top: 100px;
