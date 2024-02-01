@@ -58,6 +58,9 @@
  }
  
  @media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
      #contact, footer {
         height: 40vh;
         margin-top: 100px;
